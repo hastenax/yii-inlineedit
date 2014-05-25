@@ -42,3 +42,12 @@ If you need just string value, without sending it to output set $return to true:
 Default ajax url setted to Article/update/1 but you always can change it:
 
 	echo InlineEdit::textField($model, 'title', $model->title, true, false, '/<your new url for ajax save call>/');
+
+Styles
+=========================
+
+Adjust textarea style with this classes:
+
+	* .inline-edit-field
+	* .inline-edit-field.inactive
+    * .inline-edit-field.active
