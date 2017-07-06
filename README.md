@@ -1,7 +1,7 @@
 yii-inlineedit
 ==============
 
-Provides simple opportunity for replacing model field values with editable textareas. New values sends via AJAX. Several customization available.
+Provides simple opportunity for replacing model field value with editable textarea. New value sends via AJAX. Several customization available.
 
 Requirements 
 =========================
@@ -29,7 +29,7 @@ Assuming that you have $model - Article activerecord class object with field tit
 
 	echo InlineEdit::textField($model, 'title', $model->title);
 
-You can disable such behavior, just echoing $value (for example if you need to show textares only for admins)
+You can disable such behavior, just echoing $value (for example if you need to show textareas only for admins)
 
 	echo InlineEdit::textField($model, 'title', $model->title, $enable);
 
